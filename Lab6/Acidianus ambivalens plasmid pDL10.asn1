@@ -1,0 +1,1826 @@
+Seq-entry ::= set {
+  level 1,
+  class nuc-prot,
+  descr {
+    source {
+      genome plasmid,
+      org {
+        taxname "Acidianus ambivalens",
+        db {
+          {
+            db "taxon",
+            tag id 2283
+          }
+        },
+        orgname {
+          name binomial {
+            genus "Acidianus",
+            species "ambivalens"
+          },
+          mod {
+            {
+              subtype strain,
+              subname "Lei 10"
+            }
+          },
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Sulfolobales;
+ Sulfolobaceae; Acidianus",
+          gcode 11,
+          div "BCT"
+        }
+      },
+      subtype {
+        {
+          subtype plasmid-name,
+          name "pDL10"
+        }
+      }
+    },
+    pub {
+      pub {
+        pmid 10430561,
+        article {
+          title {
+            name "Molecular analysis of pDL10 from Acidianus ambivalens
+ reveals a family of related plasmids from extremely thermophilic and
+ acidophilic archaea."
+          },
+          authors {
+            names std {
+              {
+                name name {
+                  last "Kletzin",
+                  initials "A."
+                }
+              },
+              {
+                name name {
+                  last "Lieke",
+                  initials "A."
+                }
+              },
+              {
+                name name {
+                  last "Urich",
+                  initials "T."
+                }
+              },
+              {
+                name name {
+                  last "Charlebois",
+                  initials "R.L."
+                }
+              },
+              {
+                name name {
+                  last "Sensen",
+                  initials "C.W."
+                }
+              }
+            },
+            affil str "Institute of Microbiology and Genetics, Darmstadt
+ University of Technology, 64287 Darmstadt, Germany.
+ kletzin@bio.tu-darmstadt.de"
+          },
+          from journal {
+            title {
+              iso-jta "Genetics",
+              ml-jta "Genetics",
+              issn "0016-6731",
+              name "Genetics"
+            },
+            imp {
+              date std {
+                year 1999,
+                month 8
+              },
+              volume "152",
+              issue "4",
+              pages "1307-1314",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 1999,
+                    month 8,
+                    day 3
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 1999,
+                    month 8,
+                    day 3,
+                    hour 0,
+                    minute 1
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 10430561
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        sub {
+          authors {
+            names std {
+              {
+                name name {
+                  last "Kletzin",
+                  initials "A."
+                }
+              }
+            },
+            affil str "Institut fuer Mikrobiologie, Technische Universitaet
+ Darmstadt, Schnittspahnstrasse 10, Darmstadt 64287, Germany"
+          },
+          medium other,
+          date std {
+            year 1998,
+            month 1,
+            day 12
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        sub {
+          authors {
+            names std {
+              {
+                name consortium "NCBI Genome Project"
+              }
+            },
+            affil std {
+              affil "National Center for Biotechnology Information, NIH",
+              city "Bethesda",
+              sub "MD",
+              country "USA",
+              postal-code "20894"
+            }
+          },
+          date std {
+            year 2013,
+            month 1,
+            day 29
+          }
+        }
+      }
+    },
+    user {
+      type str "DBLink",
+      data {
+        {
+          label str "BioProject",
+          num 1,
+          data strs {
+            "PRJNA187712"
+          }
+        }
+      }
+    },
+    update-date std {
+      year 2014,
+      month 12,
+      day 18
+    }
+  },
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NC_005562",
+          version 1
+        },
+        gi 42761460
+      },
+      descr {
+        title "Acidianus ambivalens plasmid pDL10",
+        molinfo {
+          biomol genomic,
+          completeness complete
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "AJ225333"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059065
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        embl {
+          div pro,
+          creation-date std {
+            year 1998,
+            month 4,
+            day 15
+          },
+          update-date std {
+            year 2006,
+            month 11,
+            day 14
+          },
+          keywords {
+            "copG gene",
+            "copy number control protein",
+            "dbpA gene",
+            "DNA-binding protein",
+            "pepG gene",
+            "pepH gene",
+            "pepI gene",
+            "pepJ gene",
+            "pepK gene",
+            "pepM gene",
+            "primase",
+            "rep gene",
+            "repA gene",
+            "replication initiator protein"
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol dna,
+        length 7598,
+        topology circular,
+        ext delta {
+          loc int {
+            from 0,
+            to 7597,
+            strand plus,
+            id gi 3059065
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data imp {
+                key "promoter"
+              },
+              comment "box A promotor motif",
+              location int {
+                from 251,
+                to 258,
+                id gi 42761460
+              }
+            },
+            {
+              data imp {
+                key "terminator"
+              },
+              partial TRUE,
+              location int {
+                from 1924,
+                to 7597,
+                id gi 42761460,
+                fuzz-to lim gt
+              }
+            },
+            {
+              data imp {
+                key "promoter"
+              },
+              comment "box A promoter motif",
+              location int {
+                from 2053,
+                to 2059,
+                id gi 42761460
+              }
+            },
+            {
+              data imp {
+                key "terminator"
+              },
+              location int {
+                from 2652,
+                to 2663,
+                id gi 42761460
+              }
+            },
+            {
+              data imp {
+                key "misc_feature"
+              },
+              comment "first perfect 26mer palindrome",
+              location int {
+                from 2852,
+                to 2876,
+                id gi 42761460
+              },
+              qual {
+                {
+                  qual "function",
+                  val "putative single strand origin"
+                }
+              }
+            },
+            {
+              data imp {
+                key "misc_feature"
+              },
+              comment "second perfect 26mer palindrome",
+              location int {
+                from 3063,
+                to 3088,
+                id gi 42761460
+              },
+              qual {
+                {
+                  qual "function",
+                  val "putative single strand origin"
+                }
+              }
+            },
+            {
+              data imp {
+                key "promoter"
+              },
+              comment "box A promoter motif",
+              location int {
+                from 3337,
+                to 3343,
+                id gi 42761460
+              }
+            },
+            {
+              data imp {
+                key "promoter"
+              },
+              comment "box A promoter motif",
+              location int {
+                from 3655,
+                to 3660,
+                id gi 42761460
+              }
+            },
+            {
+              data imp {
+                key "rep_origin"
+              },
+              comment "putative double strand origin of replication for pDL10",
+              location int {
+                from 6639,
+                to 6930,
+                id gi 42761460
+              },
+              qual {
+                {
+                  qual "direction",
+                  val "BOTH"
+                }
+              }
+            },
+            {
+              data imp {
+                key "stem_loop"
+              },
+              comment "extended stem-loop structurally conserved in pRN1",
+              location int {
+                from 6689,
+                to 6801,
+                id gi 42761460
+              },
+              qual {
+                {
+                  qual "function",
+                  val "double strand origin"
+                }
+              }
+            },
+            {
+              data imp {
+                key "terminator"
+              },
+              location int {
+                from 7145,
+                to 7156,
+                strand minus,
+                id gi 42761460
+              }
+            },
+            {
+              data imp {
+                key "promoter"
+              },
+              comment "box A promoter motif",
+              location int {
+                from 7550,
+                to 7558,
+                strand minus,
+                id gi 42761460
+              }
+            },
+            {
+              data imp {
+                key "promoter"
+              },
+              comment "box A promoter motif",
+              location int {
+                from 7585,
+                to 7594,
+                strand minus,
+                id gi 42761460
+              }
+            },
+            {
+              data gene {
+                locus "copG",
+                locus-tag "pDL10_p16"
+              },
+              location int {
+                from 3678,
+                to 3893,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746839
+                }
+              }
+            },
+            {
+              data gene {
+                locus "copG/repA",
+                locus-tag "pDL10_p15"
+              },
+              location int {
+                from 3655,
+                to 3660,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746856
+                }
+              }
+            },
+            {
+              data gene {
+                locus "dbpA",
+                locus-tag "pDL10_p13"
+              },
+              location int {
+                from 3337,
+                to 3343,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746848
+                }
+              }
+            },
+            {
+              data gene {
+                locus "dbpA",
+                locus-tag "pDL10_p14"
+              },
+              location int {
+                from 3365,
+                to 3586,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746849
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepFGHI",
+                locus-tag "pDL10_p01"
+              },
+              location int {
+                from 251,
+                to 258,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746852
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepFGHI",
+                locus-tag "pDL10_p06"
+              },
+              partial TRUE,
+              location int {
+                from 1924,
+                to 7597,
+                id gi 42761460,
+                fuzz-to lim gt
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746853
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepG",
+                locus-tag "pDL10_p03"
+              },
+              location int {
+                from 950,
+                to 1357,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746837
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepH",
+                locus-tag "pDL10_p04"
+              },
+              location int {
+                from 1311,
+                to 1700,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746854
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepI",
+                locus-tag "pDL10_p05"
+              },
+              location int {
+                from 1697,
+                to 1915,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746855
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepJ",
+                locus-tag "pDL10_p08"
+              },
+              location int {
+                from 2091,
+                to 2273,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746840
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepJK",
+                locus-tag "pDL10_p07"
+              },
+              location int {
+                from 2053,
+                to 2059,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746841
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepJK",
+                locus-tag "pDL10_p10"
+              },
+              location int {
+                from 2652,
+                to 2663,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746850
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepK",
+                locus-tag "pDL10_p09"
+              },
+              location int {
+                from 2349,
+                to 2639,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746851
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepM",
+                locus-tag "pDL10_p02"
+              },
+              location int {
+                from 277,
+                to 960,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746847
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepM",
+                locus-tag "pDL10_p19"
+              },
+              location int {
+                from 7145,
+                to 7563,
+                strand minus,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746845
+                }
+              }
+            },
+            {
+              data gene {
+                locus "pepM",
+                locus-tag "pDL10_p20"
+              },
+              location int {
+                from 7585,
+                to 7594,
+                strand minus,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746846
+                }
+              }
+            },
+            {
+              data gene {
+                locus "rep",
+                locus-tag "pDL10_p18"
+              },
+              location int {
+                from 6639,
+                to 6930,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746838
+                }
+              }
+            },
+            {
+              data gene {
+                locus "repA",
+                locus-tag "pDL10_p17"
+              },
+              location int {
+                from 3906,
+                to 6635,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746842
+                }
+              }
+            },
+            {
+              data gene {
+                locus "sso",
+                locus-tag "pDL10_p11"
+              },
+              location int {
+                from 2852,
+                to 2876,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746843
+                }
+              }
+            },
+            {
+              data gene {
+                locus "sso",
+                locus-tag "pDL10_p12"
+              },
+              location int {
+                from 3063,
+                to 3088,
+                id gi 42761460
+              },
+              dbxref {
+                {
+                  db "GeneID",
+                  tag id 2746844
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_976256",
+          version 1
+        },
+        gi 42761461
+      },
+      descr {
+        title "PepF protein [Acidianus ambivalens]",
+        molinfo {
+          biomol peptide,
+          tech concept-trans
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "CAA12518"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059066
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol aa,
+        length 227,
+        ext delta {
+          loc int {
+            from 0,
+            to 226,
+            strand plus,
+            id gi 499480549
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "PepF protein"
+                }
+              },
+              location int {
+                from 0,
+                to 226,
+                id gi 42761461
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_976257",
+          version 1
+        },
+        gi 42761462
+      },
+      descr {
+        title "hypothetical PepG protein [Acidianus ambivalens]",
+        molinfo {
+          biomol peptide,
+          tech concept-trans
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "CAA12519"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059067
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol aa,
+        length 135,
+        ext delta {
+          loc int {
+            from 0,
+            to 134,
+            strand plus,
+            id gi 499480550
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "hypothetical PepG protein"
+                }
+              },
+              location int {
+                from 0,
+                to 134,
+                id gi 42761462
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_976258",
+          version 1
+        },
+        gi 42761463
+      },
+      descr {
+        title "hypothetical PepH protein [Acidianus ambivalens]",
+        molinfo {
+          biomol peptide,
+          tech concept-trans
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "CAA12520"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059068
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol aa,
+        length 129,
+        ext delta {
+          loc int {
+            from 0,
+            to 128,
+            strand plus,
+            id gi 499480551
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "hypothetical PepH protein"
+                }
+              },
+              location int {
+                from 0,
+                to 128,
+                id gi 42761463
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_976259",
+          version 1
+        },
+        gi 42761464
+      },
+      descr {
+        title "hypothetical Pep I protein [Acidianus ambivalens]",
+        molinfo {
+          biomol peptide,
+          tech concept-trans
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "CAA12521"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059069
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol aa,
+        length 72,
+        ext delta {
+          loc int {
+            from 0,
+            to 71,
+            strand plus,
+            id gi 499480552
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "hypothetical Pep I protein"
+                }
+              },
+              location int {
+                from 0,
+                to 71,
+                id gi 42761464
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_976260",
+          version 1
+        },
+        gi 42761465
+      },
+      descr {
+        title "hypothetical PepJ protein [Acidianus ambivalens]",
+        molinfo {
+          biomol peptide,
+          tech concept-trans
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "CAA12522"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059070
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol aa,
+        length 60,
+        ext delta {
+          loc int {
+            from 0,
+            to 59,
+            strand plus,
+            id gi 499480553
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "hypothetical PepJ protein"
+                }
+              },
+              location int {
+                from 0,
+                to 59,
+                id gi 42761465
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_976261",
+          version 1
+        },
+        gi 42761466
+      },
+      descr {
+        title "PepK protein [Acidianus ambivalens]",
+        molinfo {
+          biomol peptide,
+          tech concept-trans
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "CAA12523"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059071
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol aa,
+        length 96,
+        ext delta {
+          loc int {
+            from 0,
+            to 95,
+            strand plus,
+            id gi 499480554
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "PepK protein"
+                }
+              },
+              location int {
+                from 0,
+                to 95,
+                id gi 42761466
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_976262",
+          version 1
+        },
+        gi 42761467
+      },
+      descr {
+        title "DNA-binding protein [Acidianus ambivalens]",
+        molinfo {
+          biomol peptide,
+          tech concept-trans
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "CAA12524"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059072
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol aa,
+        length 73,
+        ext delta {
+          loc int {
+            from 0,
+            to 72,
+            strand plus,
+            id gi 499480555
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "DNA-binding protein"
+                }
+              },
+              location int {
+                from 0,
+                to 72,
+                id gi 42761467
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_976263",
+          version 1
+        },
+        gi 42761468
+      },
+      descr {
+        title "copy number control protein [Acidianus ambivalens]",
+        molinfo {
+          biomol peptide,
+          tech concept-trans
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "CAA12525"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059073
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol aa,
+        length 71,
+        ext delta {
+          loc int {
+            from 0,
+            to 70,
+            strand plus,
+            id gi 499480556
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "copy number control protein"
+                }
+              },
+              location int {
+                from 0,
+                to 70,
+                id gi 42761468
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_976264",
+          version 1
+        },
+        gi 42761469
+      },
+      descr {
+        title "primase [Acidianus ambivalens]",
+        molinfo {
+          biomol peptide,
+          tech concept-trans
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "CAA12526"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059074
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol aa,
+        length 909,
+        ext delta {
+          loc int {
+            from 0,
+            to 908,
+            strand plus,
+            id gi 499480557
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "primase"
+                },
+                activity {
+                  "replication initiator protein"
+                }
+              },
+              location int {
+                from 0,
+                to 908,
+                id gi 42761469
+              }
+            }
+          }
+        }
+      }
+    },
+    seq {
+      id {
+        other {
+          accession "NP_976265",
+          version 1
+        },
+        gi 42761470
+      },
+      descr {
+        title "PepM protein [Acidianus ambivalens]",
+        molinfo {
+          biomol peptide,
+          tech concept-trans
+        },
+        user {
+          type str "RefGeneTracking",
+          data {
+            {
+              label str "IdenticalTo",
+              data fields {
+                {
+                  label id 0,
+                  data fields {
+                    {
+                      label str "accession",
+                      data str "CAA12527"
+                    },
+                    {
+                      label str "gi",
+                      data int 3059075
+                    }
+                  }
+                }
+              }
+            },
+            {
+              label str "Status",
+              data str "PROVISIONAL"
+            }
+          }
+        },
+        create-date std {
+          year 2004,
+          month 2,
+          day 24
+        }
+      },
+      inst {
+        repr delta,
+        mol aa,
+        length 135,
+        ext delta {
+          loc int {
+            from 0,
+            to 134,
+            strand plus,
+            id gi 499480558
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data prot {
+                name {
+                  "PepM protein"
+                }
+              },
+              location int {
+                from 0,
+                to 134,
+                id gi 42761470
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  annot {
+    {
+      data ftable {
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 11
+            }
+          },
+          product whole gi 42761461,
+          location int {
+            from 277,
+            to 960,
+            id gi 42761460
+          },
+          dbxref {
+            {
+              db "UniProtKB/TrEMBL",
+              tag str "O57695"
+            }
+          }
+        },
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 11
+            }
+          },
+          product whole gi 42761462,
+          location int {
+            from 950,
+            to 1357,
+            id gi 42761460
+          },
+          dbxref {
+            {
+              db "UniProtKB/TrEMBL",
+              tag str "O57696"
+            }
+          }
+        },
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 11
+            }
+          },
+          product whole gi 42761463,
+          location int {
+            from 1311,
+            to 1700,
+            id gi 42761460
+          },
+          dbxref {
+            {
+              db "UniProtKB/TrEMBL",
+              tag str "O57697"
+            }
+          }
+        },
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 11
+            }
+          },
+          product whole gi 42761464,
+          location int {
+            from 1697,
+            to 1915,
+            id gi 42761460
+          },
+          dbxref {
+            {
+              db "UniProtKB/TrEMBL",
+              tag str "O57698"
+            }
+          }
+        },
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 11
+            }
+          },
+          product whole gi 42761465,
+          location int {
+            from 2091,
+            to 2273,
+            id gi 42761460
+          },
+          dbxref {
+            {
+              db "UniProtKB/TrEMBL",
+              tag str "O57699"
+            }
+          }
+        },
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 11
+            }
+          },
+          product whole gi 42761466,
+          location int {
+            from 2349,
+            to 2639,
+            id gi 42761460
+          },
+          dbxref {
+            {
+              db "UniProtKB/TrEMBL",
+              tag str "O57700"
+            }
+          }
+        },
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 11
+            }
+          },
+          product whole gi 42761467,
+          location int {
+            from 3365,
+            to 3586,
+            id gi 42761460
+          },
+          dbxref {
+            {
+              db "GOA",
+              tag str "O57701"
+            },
+            {
+              db "InterPro",
+              tag str "IPR008848"
+            },
+            {
+              db "UniProtKB/TrEMBL",
+              tag str "O57701"
+            }
+          }
+        },
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 11
+            }
+          },
+          product whole gi 42761468,
+          location int {
+            from 3678,
+            to 3893,
+            id gi 42761460
+          },
+          dbxref {
+            {
+              db "UniProtKB/TrEMBL",
+              tag str "O57702"
+            }
+          }
+        },
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 11
+            }
+          },
+          product whole gi 42761469,
+          location int {
+            from 3906,
+            to 6635,
+            id gi 42761460
+          },
+          dbxref {
+            {
+              db "InterPro",
+              tag str "IPR004968"
+            },
+            {
+              db "InterPro",
+              tag str "IPR006500"
+            },
+            {
+              db "UniProtKB/TrEMBL",
+              tag str "O57703"
+            }
+          }
+        },
+        {
+          data cdregion {
+            frame one,
+            code {
+              id 11
+            }
+          },
+          product whole gi 42761470,
+          location int {
+            from 7156,
+            to 7563,
+            strand minus,
+            id gi 42761460
+          },
+          dbxref {
+            {
+              db "UniProtKB/TrEMBL",
+              tag str "O57704"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

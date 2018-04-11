@@ -1,0 +1,450 @@
+LOCUS       NC_005562               7598 bp    DNA     circular CON 18-DEC-2014
+DEFINITION  Acidianus ambivalens plasmid pDL10.
+ACCESSION   NC_005562
+VERSION     NC_005562.1
+DBLINK      BioProject: PRJNA187712
+KEYWORDS    RefSeq; copG gene; copy number control protein; dbpA gene;
+            DNA-binding protein; pepG gene; pepH gene; pepI gene; pepJ gene;
+            pepK gene; pepM gene; primase; rep gene; repA gene; replication
+            initiator protein.
+SOURCE      Acidianus ambivalens
+  ORGANISM  Acidianus ambivalens
+            Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae;
+            Acidianus.
+REFERENCE   1  (bases 1 to 7598)
+  AUTHORS   Kletzin,A., Lieke,A., Urich,T., Charlebois,R.L. and Sensen,C.W.
+  TITLE     Molecular analysis of pDL10 from Acidianus ambivalens reveals a
+            family of related plasmids from extremely thermophilic and
+            acidophilic archaea
+  JOURNAL   Genetics 152 (4), 1307-1314 (1999)
+   PUBMED   10430561
+REFERENCE   2  (bases 1 to 7598)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2013) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 7598)
+  AUTHORS   Kletzin,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JAN-1998) Institut fuer Mikrobiologie, Technische
+            Universitaet Darmstadt, Schnittspahnstrasse 10, Darmstadt 64287,
+            Germany
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AJ225333.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..7598
+                     /organism="Acidianus ambivalens"
+                     /mol_type="genomic DNA"
+                     /strain="Lei 10"
+                     /db_xref="taxon:2283"
+                     /plasmid="pDL10"
+     gene            252..259
+                     /gene="pepFGHI"
+                     /locus_tag="pDL10_p01"
+                     /db_xref="GeneID:2746852"
+     regulatory      252..259
+                     /regulatory_class="promoter"
+                     /gene="pepFGHI"
+                     /locus_tag="pDL10_p01"
+                     /note="box A promotor motif"
+     gene            278..961
+                     /gene="pepM"
+                     /locus_tag="pDL10_p02"
+                     /db_xref="GeneID:2746847"
+     CDS             278..961
+                     /gene="pepM"
+                     /locus_tag="pDL10_p02"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="PepF protein"
+                     /protein_id="NP_976256.1"
+                     /db_xref="UniProtKB/TrEMBL:O57695"
+                     /db_xref="GeneID:2746847"
+                     /translation="MSQTVYAINLTHEETANLLQYHYLLYRYEHLVNTYSQTVELVIR
+                     EHMKNFIPMRAKLLISLFKMLKNGIIPPTVDDLKDYAYFLLIKNDSGYVVNNKKYSFL
+                     YDYLETELPGLHAFNVIHTSPNKRISLHEEEKAYLDKFKEEHSFETQEDAIIDLLSTT
+                     YVFSIWRTVVNLTENNVNDVELQVFDELGEFVLLFGVLKNNNKVKILIEFFPFFTSNK
+                     FTEVIENVI"
+     gene            951..1358
+                     /gene="pepG"
+                     /locus_tag="pDL10_p03"
+                     /db_xref="GeneID:2746837"
+     CDS             951..1358
+                     /gene="pepG"
+                     /locus_tag="pDL10_p03"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical PepG protein"
+                     /protein_id="NP_976257.1"
+                     /db_xref="UniProtKB/TrEMBL:O57696"
+                     /db_xref="GeneID:2746837"
+                     /translation="MSSEQHASKLPIKSRYDWNELNRAKEAVTFFEAVIQPSLERDGI
+                     SPTVIDSIKVSYYRDILNIITQKLAQTYASINIETAVKIIDEELPKLLKESSPSVDIR
+                     GIINAWDFVKKVLTGGDKGEQTAKGSNSSSSNK"
+     gene            1312..1701
+                     /gene="pepH"
+                     /locus_tag="pDL10_p04"
+                     /db_xref="GeneID:2746854"
+     CDS             1312..1701
+                     /gene="pepH"
+                     /locus_tag="pDL10_p04"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical PepH protein"
+                     /protein_id="NP_976258.1"
+                     /db_xref="UniProtKB/TrEMBL:O57697"
+                     /db_xref="GeneID:2746854"
+                     /translation="MSKRLKDLIPPPQTNEETKYKYSYEDFKNAFGDFANFDTLSHLR
+                     VMQYLKQAQTREEQDIFTLIQRVLALQKELKTPGNEEKESAEAIKTLNFVLDVIKQLN
+                     DPRVIDLVKRIVDALATRAAAAGGGNK"
+     gene            1698..1916
+                     /gene="pepI"
+                     /locus_tag="pDL10_p05"
+                     /db_xref="GeneID:2746855"
+     CDS             1698..1916
+                     /gene="pepI"
+                     /locus_tag="pDL10_p05"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical Pep I protein"
+                     /protein_id="NP_976259.1"
+                     /db_xref="UniProtKB/TrEMBL:O57698"
+                     /db_xref="GeneID:2746855"
+                     /translation="MNKQKLEKFANLELDLLSVLLSLSDDDVDNLINELENILQKYKE
+                     KAIETDVLQLLNKLSDEEKRKLIEKLLK"
+     gene            1925..>7598
+                     /gene="pepFGHI"
+                     /locus_tag="pDL10_p06"
+                     /db_xref="GeneID:2746853"
+     regulatory      1925..>7598
+                     /regulatory_class="terminator"
+                     /gene="pepFGHI"
+                     /locus_tag="pDL10_p06"
+     gene            2054..2060
+                     /gene="pepJK"
+                     /locus_tag="pDL10_p07"
+                     /db_xref="GeneID:2746841"
+     regulatory      2054..2060
+                     /regulatory_class="promoter"
+                     /gene="pepJK"
+                     /locus_tag="pDL10_p07"
+                     /note="box A promoter motif"
+     gene            2092..2274
+                     /gene="pepJ"
+                     /locus_tag="pDL10_p08"
+                     /db_xref="GeneID:2746840"
+     CDS             2092..2274
+                     /gene="pepJ"
+                     /locus_tag="pDL10_p08"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical PepJ protein"
+                     /protein_id="NP_976260.1"
+                     /db_xref="UniProtKB/TrEMBL:O57699"
+                     /db_xref="GeneID:2746840"
+                     /translation="MVCEFLPPKYKAKLVDLAKPVELAEAGYTLQSAYKIKQKKVISD
+                     EKCEELVKILGERLRP"
+     gene            2350..2640
+                     /gene="pepK"
+                     /locus_tag="pDL10_p09"
+                     /db_xref="GeneID:2746851"
+     CDS             2350..2640
+                     /gene="pepK"
+                     /locus_tag="pDL10_p09"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="PepK protein"
+                     /protein_id="NP_976261.1"
+                     /db_xref="UniProtKB/TrEMBL:O57700"
+                     /db_xref="GeneID:2746851"
+                     /translation="MDCSKINEIYNKLDEILQLLKSKKKTPRDLDILYDKMKDSLGYV
+                     RIDNLRKELGMSLEEFLSTFSDHIEKHYELIPGGDEGFIRNGILYGIIRRKH"
+     gene            2653..2664
+                     /gene="pepJK"
+                     /locus_tag="pDL10_p10"
+                     /db_xref="GeneID:2746850"
+     regulatory      2653..2664
+                     /regulatory_class="terminator"
+                     /gene="pepJK"
+                     /locus_tag="pDL10_p10"
+     gene            2853..2877
+                     /gene="sso"
+                     /locus_tag="pDL10_p11"
+                     /db_xref="GeneID:2746843"
+     misc_feature    2853..2877
+                     /gene="sso"
+                     /locus_tag="pDL10_p11"
+                     /note="first perfect 26mer palindrome"
+                     /function="putative single strand origin"
+     gene            3064..3089
+                     /gene="sso"
+                     /locus_tag="pDL10_p12"
+                     /db_xref="GeneID:2746844"
+     misc_feature    3064..3089
+                     /gene="sso"
+                     /locus_tag="pDL10_p12"
+                     /note="second perfect 26mer palindrome"
+                     /function="putative single strand origin"
+     gene            3338..3344
+                     /gene="dbpA"
+                     /locus_tag="pDL10_p13"
+                     /db_xref="GeneID:2746848"
+     regulatory      3338..3344
+                     /regulatory_class="promoter"
+                     /gene="dbpA"
+                     /locus_tag="pDL10_p13"
+                     /note="box A promoter motif"
+     gene            3366..3587
+                     /gene="dbpA"
+                     /locus_tag="pDL10_p14"
+                     /db_xref="GeneID:2746849"
+     CDS             3366..3587
+                     /gene="dbpA"
+                     /locus_tag="pDL10_p14"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA-binding protein"
+                     /protein_id="NP_976262.1"
+                     /db_xref="GOA:O57701"
+                     /db_xref="InterPro:IPR008848"
+                     /db_xref="UniProtKB/TrEMBL:O57701"
+                     /db_xref="GeneID:2746849"
+                     /translation="MEKLQNTEKILIILSHGCATLERLEEKTGIPKKELLVYLTRLYN
+                     RGLIYRKWQKYGGKKFREYCLKYREELIS"
+     gene            3656..3661
+                     /gene="copG/repA"
+                     /locus_tag="pDL10_p15"
+                     /db_xref="GeneID:2746856"
+     regulatory      3656..3661
+                     /regulatory_class="promoter"
+                     /gene="copG/repA"
+                     /locus_tag="pDL10_p15"
+                     /note="box A promoter motif"
+     gene            3679..3894
+                     /gene="copG"
+                     /locus_tag="pDL10_p16"
+                     /db_xref="GeneID:2746839"
+     CDS             3679..3894
+                     /gene="copG"
+                     /locus_tag="pDL10_p16"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="copy number control protein"
+                     /protein_id="NP_976263.1"
+                     /db_xref="UniProtKB/TrEMBL:O57702"
+                     /db_xref="GeneID:2746839"
+                     /translation="MKKKSLQSKLDNPGYKAFCSKEAKSITRSCPFKKKRCFTDATVC
+                     GLIGYYADCPLKIDELKATTKEQVIII"
+     gene            3907..6636
+                     /gene="repA"
+                     /locus_tag="pDL10_p17"
+                     /db_xref="GeneID:2746842"
+     CDS             3907..6636
+                     /gene="repA"
+                     /locus_tag="pDL10_p17"
+                     /function="replication initiator protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="primase"
+                     /protein_id="NP_976264.1"
+                     /db_xref="InterPro:IPR004968"
+                     /db_xref="InterPro:IPR006500"
+                     /db_xref="UniProtKB/TrEMBL:O57703"
+                     /db_xref="GeneID:2746842"
+                     /translation="MDDLKLNYAKWFIKNGAAIFPIDPNTKKPVVKEWQRYSHEPLTD
+                     EEKQKFLEMISQGYNYAVPGGQKNLVILDFEDKELLKAWIGEETLNKICSKTLCVTTP
+                     HGGLHIYLIVDEVPPHKFNPVFVKDGKGVADLQSFDSYVLGPGSCINHKYCSSEKCKW
+                     KGKDYTTCYIPVNNTGIGRPDKGLKNFLKWLADKGKKLGIELSGSARAWVEGKQEKSD
+                     SHTEKDLEKLKEEMAKYNRFKGKTVDAIRSEVCQSIKKSLDNAKSDKAKAMLNTAFQV
+                     VCQGKKYSDLGIDRSRGDWHVLKTLLSHGVTDIDMLQQLIPNDSKVFAPKWDKYFVHT
+                     LMKAWNEVKPFLTVLKNAKKKKAKELKEEFAEALSQYIIRKYHIITFIQKHGNGESIV
+                     GIFRWSKKKGIYEPVDKTLKKIIRHEIMRIKELFPKSEEEGKVTFYEIKSGLVKLVYD
+                     EIMDLTLTEYDDDNIPLRIAFENYTLEWSTDKKENIFKLIPANERTEEHYSFHYIPHK
+                     IRDEVFNNTPLPFQVSELEDLARKLCPRSLDTFKQWAGDKWITLFEIIGYTLYPATKI
+                     KLAFMLLGPRDSGKSTFLQLLKKILGKHNTVSIRVKELFDSNNRFVMGYLFHKLANLT
+                     AETKEYTINDIDRFKTLTGGDQVTSDVKFNGPITFTPYAKIIIASNKLPNVSDKNDMA
+                     FWRRWLIIEFPNTFPNDDNWFRQTFTEEEIEGILTVSILAFARVIINGKFDYQQTPEE
+                     VRGLWLNNIDSVWSFIKTYVEKGIITLDPRNADLWVPRKELYNLYKEYCLDNGFPGVS
+                     LRTFANKLNKYFGITSMKKNFGKKPDGTDDRKRCFVGITINREAKQAIEADMINEVEE
+                     FIEYVKKNNHAKKEVLGNCQDFGDEKKANRFVSWCMKKNMCYQRGVDTWEISL"
+     gene            6640..6931
+                     /gene="rep"
+                     /locus_tag="pDL10_p18"
+                     /db_xref="GeneID:2746838"
+     rep_origin      6640..6931
+                     /gene="rep"
+                     /locus_tag="pDL10_p18"
+                     /note="putative double strand origin of replication for
+                     pDL10"
+                     /direction=BOTH
+     stem_loop       6690..6802
+                     /gene="rep"
+                     /locus_tag="pDL10_p18"
+                     /note="extended stem-loop structurally conserved in pRN1"
+                     /function="double strand origin"
+     gene            complement(7146..7564)
+                     /gene="pepM"
+                     /locus_tag="pDL10_p19"
+                     /db_xref="GeneID:2746845"
+     regulatory      complement(7146..7157)
+                     /regulatory_class="terminator"
+                     /gene="pepM"
+                     /locus_tag="pDL10_p19"
+     CDS             complement(7157..7564)
+                     /gene="pepM"
+                     /locus_tag="pDL10_p19"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="PepM protein"
+                     /protein_id="NP_976265.1"
+                     /db_xref="UniProtKB/TrEMBL:O57704"
+                     /db_xref="GeneID:2746845"
+                     /translation="MSCFIKPNVSIHLMARKRKHSILIYGPEGAAKKTVEDLKKKVER
+                     AEVEPAVKHEWEDRYFSGIANYATSPERTKAAEEKLTVWYEVLMRSLAPKYAEDAAKA
+                     KAEYYRELARKMKKEENPAEEAEEEYENIFKPI"
+     regulatory      complement(7551..7559)
+                     /regulatory_class="promoter"
+                     /gene="pepM"
+                     /locus_tag="pDL10_p19"
+                     /note="box A promoter motif"
+     gene            complement(7586..7595)
+                     /gene="pepM"
+                     /locus_tag="pDL10_p20"
+                     /db_xref="GeneID:2746846"
+     regulatory      complement(7586..7595)
+                     /regulatory_class="promoter"
+                     /gene="pepM"
+                     /locus_tag="pDL10_p20"
+                     /note="box A promoter motif"
+CONTIG      join(AJ225333.1:1..7598)
+ORIGIN      
+        1 ggggggtggg tccctaaatt ttcgtgattt tacgctctta caggctaatt ttagcctgga
+       61 tttgccctta cttaccttac ttcgcgtgct ttctctccat cagaacatac ttgttttcta
+      121 tttattgcgt actgaagttt atattttcga gctgtaagcc cgtgctatat aaggacaaat
+      181 agaagagaaa tagaacgaga aagaatttta tctcatctac agtgaaacaa attcgaaaat
+      241 gaatcagatt tattaagttc agtgtatcga aaatatcgtg agtcaaacag tctatgcaat
+      301 aaatctaaca cacgaagaaa ctgcaaattt gttacaatat cattaccttc tgtatagata
+      361 tgagcatctc gtaaatacct attctcaaac agtcgaatta gtaattcgcg aacatatgaa
+      421 aaattttatt cccatgcgtg ctaaactgtt aatatcactc tttaagatgt taaaaaatgg
+      481 tattataccg ccaactgtgg acgatctcaa agattatgca tattttttac tcataaagaa
+      541 tgacagcggt tatgttgtta acaataagaa gtactctttt ctgtatgatt acctggagac
+      601 cgaactacca ggtctgcacg cttttaacgt cattcatact tcgccaaaca agagaatttc
+      661 tctccatgaa gaagagaaag catacctgga caagtttaaa gaagagcatt ctttcgaaac
+      721 ccaggaagac gcaataatag atttgctatc gacaacttac gtgttctcga tatggagaac
+      781 ggtagtaaac ttaacggaga acaatgtaaa cgacgtggag ctccaggtgt ttgatgagtt
+      841 aggagaattt gtacttctat tcggcgtgct aaagaataat aataaagtca agatactaat
+      901 cgaatttttc ccgtttttca cttcaaataa attcacggaa gtgatagaaa atgtcatctg
+      961 aacaacacgc ttccaaatta ccaattaagt cacgttacga ctggaatgag ctcaaccgtg
+     1021 ctaaggaagc agtaaccttt ttcgaggctg ttatacaacc ttctctagaa agagacggaa
+     1081 tttcgccaac ggtaatagat agtattaagg tttcatacta ccgtgatatc ttgaatatca
+     1141 taactcaaaa gttagctcaa acctatgctt ctattaatat agaaactgca gtgaaaatta
+     1201 tagacgaaga acttcctaag ttgcttaagg aatcttcgcc ttctgttgat atacgaggaa
+     1261 taattaacgc gtgggatttc gttaagaaag ttttaacagg aggtgataaa ggtgagcaaa
+     1321 cggctaaagg atctaattcc tcctcctcaa acaaatgaag aaactaaata taagtatagt
+     1381 tatgaagatt tcaagaacgc atttggtgac tttgcaaact tcgacacact ttcacatctt
+     1441 cgcgtgatgc aatatttgaa acaggcacag accagggaag agcaagatat atttacatta
+     1501 attcagagag ttctagcttt acagaaggaa ctgaaaacac ctggtaatga agaaaaagaa
+     1561 tcagcagagg caatcaagac actaaacttt gtattggatg ttatcaagca attgaacgat
+     1621 ccacgcgtga tagacctggt aaagaggatt gtggacgctt tagctactcg agcagctgct
+     1681 gcgggtggtg gtaataaatg aacaaacaga aattggaaaa gtttgcaaat ctggaattag
+     1741 atttgcttag cgttttacta tcattatccg acgacgacgt tgacaatcta ataaacgaac
+     1801 ttgaaaacat tctacaaaag tataaggaaa aagcgataga aacggacgtg cttcaactgc
+     1861 tgaacaaact ttcagatgaa gagaaaagaa agttaattga aaagttatta aagtgagaac
+     1921 aattttttat taatttgcac acaagcaata atattactca ataagccgtg aactgcacac
+     1981 gagcaagggg agtatttaat aacagtttat gtgcacacct catttttagg aattggggtt
+     2041 ttccaaaaga tttataaacc cttgagacaa aattagaact ggggagttcc aatggtttgt
+     2101 gagtttcttc ctccaaaata caaagcaaag ttagtagatc tagctaaacc cgtggaactt
+     2161 gctgaagcgg gctatacgtt acaatcggcc tacaaaataa aacagaagaa ggtgataagt
+     2221 gacgagaagt gtgaggaact agttaaaata ctaggagaaa gactgcgccc gtgatacaag
+     2281 aagcgttgaa cgagttcata tctcaaataa acaaactagg aattactgcg tgctgctagc
+     2341 agcagtttaa tggactgtag caaaattaat gaaatttata ataagttaga tgagattctg
+     2401 cagctgctaa aaagtaagaa gaagacgcca cgtgacctgg acattttata cgataaaatg
+     2461 aaggactcac ttggctacgt taggatagat aatttgagga aggaattagg aatgagttta
+     2521 gaggaattct tatcaacatt cagtgaccat atagagaaac actacgaatt aatacccggt
+     2581 ggagatgaag ggttcatacg aaacgggatt ttgtacggaa taattaggcg taagcattag
+     2641 aaatggggat ttcctttttt tggaattctt gttttcctaa atctagagtc ttctctctct
+     2701 tttcttcttt cttcttagag aagtctagat tcttctctct agaacacggg gtctagaagc
+     2761 cgtggttaat ccttgatagc tgcaaatatg cagctctgct cgatgcagca ctaattactc
+     2821 tcttcaattt gtttactttc ggtctcacta aattgactcg catgcgagtc aattttgctc
+     2881 tcttctgttt tatttttact ttctatatca aatttcacgc caggtggcga gaatttttct
+     2941 ccagaagaga gacaaaatta cgggccaggt ggccgtattt tgtccaggat aacaataaaa
+     3001 tcagagaata gagtaaacta cggggcaaat gctccgtatt ttgcccagaa tagcgaaaac
+     3061 aaatactagc actagtgcta gtattttgtt catttttaat ttcttttgtt tattctacct
+     3121 ggatcccagg gtgtttaagt tgtaagatat agctatatta gctgtaccta tgtttaatcc
+     3181 tacttggatc ccagggtgtt tttctcctaa gagttagctc tcacggttac gtaaacagta
+     3241 ttaacaaata tgttaatgct acagggtgag agttagaaag ctgctttttg cagcgctatt
+     3301 aggtaattca catattactt aatcctgttt aaggtttatt aaggagaatt acacgttaaa
+     3361 aaaatatgga gaaactccaa aacactgaaa aaattttgat cattttatct cacggttgtg
+     3421 caaccttgga aagactggaa gaaaaaacag gtatcccaaa gaaggaactg cttgtttatc
+     3481 taaccaggtt atacaataga gggcttattt atagaaagtg gcaaaagtat ggcggaaaga
+     3541 agttcagaga atattgtctt aaataccggg aagaactgat aagttaggct tgtcatacca
+     3601 aaaatcgatc ggtgtgttta tatgtgccat acgcataaat attaacgtat gctttaaatt
+     3661 taagcggggc ggggagatat gaagaaaaag agtctacagt ctaaattaga taatccaggt
+     3721 tataaagctt tttgttcaaa agaagccaaa agtattacac gttcttgtcc atttaagaag
+     3781 aagcgctgct ttacagacgc taccgtttgt ggattaatag ggtattacgc agactgtccg
+     3841 ctaaagatag acgaattgaa agcaactacg aaagaacagg taatcattat ctgaaggtga
+     3901 gtagctgtgg atgatttaaa gctaaattac gccaagtggt tcataaaaaa cggggctgct
+     3961 atttttccaa tcgacccaaa cactaagaag cccgtggtga aagaatggca aaggtatagt
+     4021 cacgagccgt tgactgatga agagaaacag aaattcctag agatgattag tcaaggctat
+     4081 aattacgccg tgcctggcgg acaaaagaac ttagtaattt tagatttcga agacaaagaa
+     4141 ctcctgaaag cgtggatagg agaagaaaca cttaacaaaa tttgcagcaa aacgctgtgc
+     4201 gttaccacgc ctcatggcgg cttgcacata taccttatag ttgatgaagt accgccacac
+     4261 aagtttaacc ctgtatttgt caaagacggt aaaggagtag ctgatttaca gagcttcgac
+     4321 tcttatgtac taggcccagg ctcttgcatt aatcataagt attgtagtag tgagaaatgt
+     4381 aaatggaaag gtaaagatta tactacatgc tatattccag taaataatac tggaatagga
+     4441 agaccggaca aggggctcaa aaacttccta aagtggttag ctgataaggg caaaaaacta
+     4501 ggcatagaat taagtggttc agcacgggca tgggtggaag gaaagcaaga gaagtctgat
+     4561 tcccatacgg aaaaagacct ggaaaagctc aaagaagaaa tggcgaaata taaccgcttt
+     4621 aaggggaaaa ctgtagacgc aataagatct gaagtttgtc agagtattaa gaaaagcctg
+     4681 gacaatgcca agtctgataa ggcaaaagcc atgcttaaca cagctttcca ggttgtttgt
+     4741 caaggcaaga agtacagtga cttaggaatc gatagaagta ggggggattg gcatgtgcta
+     4801 aaaacactgt tgagccatgg agtcacagac atagatatgt tacaacaatt gatacctaat
+     4861 gattccaaag ttttcgcccc caaatgggac aagtattttg tgcatacgtt aatgaaagcc
+     4921 tggaatgaag taaagccatt cctaaccgtg ttgaagaatg caaagaagaa gaaggccaaa
+     4981 gagctcaaag aagagtttgc tgaagcactt tcgcaataca ttataaggaa ataccacatc
+     5041 atcacgttca ttcaaaaaca cggaaatggc gaatcgattg taggaatatt tcgatggagt
+     5101 aagaaaaagg gaatctatga gccagttgat aaaacgctta agaagattat tagacatgag
+     5161 atcatgcgta tcaaggagtt attccctaag tcagaagaag aaggcaaagt aacgttctat
+     5221 gagattaaga gcggtctagt taaactggta tatgatgaaa ttatggactt aacgctgaca
+     5281 gagtatgatg atgataatat cccactaagg atagcgtttg agaattatac attggagtgg
+     5341 tcaacagaca agaaagagaa tatcttcaaa ctaattcccg caaatgaacg cacagaggaa
+     5401 cattattcat tccattacat tccgcataag atccgtgatg aagtatttaa taacacgccg
+     5461 ttgccattcc aggtcagtga gttagaagac ttagcccgta aactatgccc caggtcacta
+     5521 gatactttca aacaatgggc gggtgacaag tggatcacat tgtttgagat aataggatat
+     5581 acgttatacc ccgctacaaa gattaagtta gcgtttatgt tactagggcc ccgagacagt
+     5641 ggaaagtcaa cattcttaca gttattgaag aagatattgg gcaaacataa cacggttagc
+     5701 attcgtgtta aagagctgtt cgactcaaac aataggtttg tgatggggta cctattccac
+     5761 aagttagcaa atctcacggc tgaaactaag gagtacacta taaatgatat tgacagattc
+     5821 aagacattaa caggtgggga tcaagttacg agtgatgtca agtttaatgg gccaatcacg
+     5881 ttcactcctt acgcaaagat catcattgca agtaacaagt taccaaacgt ttcggataag
+     5941 aatgacatgg ccttttggag aagatggttg attatagaat tcccgaatac ttttcctaat
+     6001 gatgataact ggttcaggca aactttcaca gaagaggaaa tagaaggtat cctaacagta
+     6061 tcgattttgg cgtttgcccg cgtaatcatt aacggaaagt ttgactacca acagactcca
+     6121 gaagaggtaa gaggcttatg gctcaacaac attgacagcg tatggagttt catcaaaact
+     6181 tatgtggaga agggcatcat cacgctggat ccacgaaatg ccgacttatg ggtacctaga
+     6241 aaggagctat ataatttata taaggaatat tgcctcgata atgggttccc tggagtatcg
+     6301 ctgagaacgt ttgccaataa gctcaacaaa tactttggaa tcacgagtat gaagaagaat
+     6361 ttcggaaaga agcctgatgg tacagatgat agaaaaagat gctttgtagg tattacaata
+     6421 aacagagagg ctaagcaggc gattgaagct gatatgataa atgaagtcga agagttcatt
+     6481 gagtatgtga agaagaacaa ccacgcaaaa aaggaagttt tgggaaattg ccaagatttt
+     6541 ggggatgaga agaaagctaa caggtttgtg tcatggtgta tgaagaagaa catgtgttac
+     6601 caaagaggag ttgacacatg ggaaatctct ttgtaacacg cggggttttc aattttttga
+     6661 aattcaattt ttaaactgta atgtacaaat aaggtaccga aagtccaaga acatggggga
+     6721 tatattttta acacaatttt tttgcagact tttttggggt aaaaataaac cctaaaacct
+     6781 ggactttcga tcccttattc aaatataccg tgataatatt acaatgctca tgttacaatt
+     6841 gaatgcaaaa tactgaatat gtctaacgta ttttctcttc atagagccgt gctatatcca
+     6901 tattttatat tataatgcag ctgcacatga gtactacaaa tatgcagctt tggaattggg
+     6961 gaattccaaa aaactgggaa tcctccggaa atctccattc cctctaaaaa gtctacatct
+     7021 gcagcagctg catacagtac gggggccact ctatattata acaaaaattt ctctcttctg
+     7081 tttcacaaaa ctgtacgctc cagcgtgcag tttagttttc ttctgtttta ttttttatgt
+     7141 tggaaaaaaa aaaagattag attggcttga agatattttc gtactcttct tcggcttctt
+     7201 ctgcagggtt ttcttctttc ttcattttac gggccaactc gcggtaatac tcggctttcg
+     7261 ctttggccgc atcttccgca tattttggtg ctaaacttct cattaatact tcataccata
+     7321 ccgttaattt ctcctctgca gctttggttc tttcggggct tgttgcatag ttagctatac
+     7381 cagaaaaata cctatcttcc cactcgtgtt ttacagctgg ctcaacttct gctctctcca
+     7441 ctttcttctt cagatcctca acagtcttct tggcagctcc ttctggacca tatataagga
+     7501 tagaatgctt tctctttctg gccatcaggt gaatggatac attaggcttt ataaaacaag
+     7561 acaaacacgc atttttacga gttttttata aataaccc
+//
+
